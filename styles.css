@@ -35,6 +35,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 25px;
 }
 
 nav .logo {
@@ -190,4 +191,51 @@ footer {
     .project {
       flex: 1 1 100%;
     }
+  }
+  /* this is css for the javascript page */
+
+  .contact-form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2 {
+    text-align: center;
+    color: var(--primary-color);
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin: 10px 0 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+  }
+  
+  .contact-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: var(--accent2-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: var(--primary-color);
   }
